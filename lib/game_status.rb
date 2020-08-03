@@ -21,16 +21,8 @@ end
 end
 
 def won?(board)
-  WIN_COMBINATIONS.each do |win_combo|
-    if check_win_combination(board, "X", win_combo)
-       win_combo
-    else check_win_combination(board, "O", win_combo)
-      win_combo
-      elsif
-      false
-    end
-  end
-end
+  
+  
 
       
   
