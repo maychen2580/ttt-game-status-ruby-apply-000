@@ -15,9 +15,9 @@ WIN_COMBINATIONS = [
 [2,4,6]]
 
 def won?(board)
-  WIN_COMBINATIONS.detect |combo|
+  WIN_COMBINATIONS.detect do |combo|
   board[combo[0]] == board[combo[1]] &&
-  board[combo[1]] == board[combo[2]]
+  board[combo[1]] == board[combo[2]] &&
 
 
   def full?(board)
