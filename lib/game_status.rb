@@ -44,19 +44,8 @@ end
     won?(board) || full?(board)
   end
   
-  def winner(board)
-    if !win?(board)
-      nil
-    else WIN_COMBINATIONS.each do |win_combo|
-      if check_win_combination?(board, "X", win_combo)
-        puts "X"
-    elsif check_win_combination?(board, "O", win_combo)
-      puts "O"
-      end
-    end
-  end
-end
-    
+  
+  
         
     
   
